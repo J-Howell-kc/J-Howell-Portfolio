@@ -2,29 +2,63 @@
 <html lang="en-US">
 <head>
    <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE Edge">
-   <meta name="viewport" content=""width=device-width, initial-scale="1.0" >
    <title> Challenge Module 2- My Portfolio Page</title>
    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-   <section class="toplist"></section>
- <nav>
-    <li id="About Me"> Github</li>
-    <li id="Work"> LinkedIn</li>
-    <li id="Contact"> Contact</li>
-</nav>
-</section>
-<a href=""></a>
-<li></li> 
-<li></li>
-<li></li>
-
-</header>
-
-<img src="">
-
-
 <body>
-  <h1> J Howell </h1>
+   <header class="header">
+       <h1>el Reclusa</h1>
+       <div>
+           <ul>
+               <li>
+                   <a href="#about me">About Me</a>
+               </li>
+               <li> <a href="#work">Work</a>
+               </li>
+               <li>
+                   <a href="#contact">Contact </a>
+               </li>
+           </ul>
+       </div>
+       
+   </header>
+
+   <div class="content">
+       <section id="about me" class="about_me">
+           <img src="./assets/images/StaringAtAScreen.jpg" alt="" class="float-left" />
+        <!-- added alt text for accessibility, fixed broken link by adding id element, changed semantic element to section-->
+
+           <h2>About Me</h2>
+           <p>
+               
+           </p>
+       </section>
+       <section id="work" class="work">
+           <img src="./assets/images/.jpg" alt= "" class="float-right" />
+           <h2>Work</h2>
+           <p>
+               
+           
+
+       </section>
+       <section id="contact" class="contact">
+           <img src="./assets/images/.jpg" alt= ""class="float-left" />
+           <h2>Contact</h2>
+           <p>
+               
+           </p>
+           <!-- added alt text for accessibility, changed semantic element to section -->
+
+       </section>
+   </div>
+   
+   <footer class="footer">
+       <h4>Made with ❤️️ by el Reclusa</h4>
+       <!-- changed header from h2 to h4 for accessibility-->
+       <p>
+           &copy; 2022 J Howell
+       </p>
+   </div>   
+
 </body>
 </html>
