@@ -20,9 +20,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
+
 
 .header div {
     padding-top: 15px;
@@ -51,7 +49,8 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 800
+    px;
     width: 100%;
     margin-bottom: 25px;
     background-image: src="assets/images/StaringAtAScreen.jpg";
