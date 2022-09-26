@@ -7,8 +7,12 @@ body {
     background-color: #d9dcd6;
 }
 
-.aboutme {
-
+.about_me {
+    width: 82%;
+    height: 480px;
+    color:#0a3d11;
+    background-color: #f2ee07;
+    font-family:'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .header {
     padding: 20px;
